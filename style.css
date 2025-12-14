@@ -1,69 +1,112 @@
+/* Global */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
-  background: #f4f6f8;
-  color: #222;
+  padding: 0;
+  background: #eef2f7;
+  color: #1f2d3d;
 }
 
+/* Header */
 header {
-  background: #0b5ed7;
-  color: white;
+  background: linear-gradient(135deg, #005bea, #00c6fb);
+  padding: 35px 20px;
   text-align: center;
-  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 18px;
+  margin: 5px 0;
 }
 
 .expo {
-  display: block;
   margin-top: 8px;
-  font-weight: bold;
-  color: #ffdd57;
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
+/* Navigation */
 nav {
-  background: #003f88;
-  padding: 10px;
+  background: #003580;
+  padding: 12px;
   text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 0 10px;
+  color: #fff;
+  margin: 0 12px;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
 section {
+  background: #fff;
+  margin: 15px;
   padding: 20px;
-  background: white;
-  margin: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
-h2 {
-  color: #0b5ed7;
+section h2 {
+  color: #005bea;
+  margin-bottom: 10px;
 }
 
+/* Service List */
 ul li {
-  margin: 6px 0;
+  padding: 6px 0;
+  font-size: 16px;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
-  padding: 12px 18px;
-  background: #0b5ed7;
-  color: white;
+  padding: 14px 22px;
+  background: #005bea;
+  color: #fff !important;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
   border-radius: 6px;
   margin-top: 10px;
+  box-shadow: 0 4px 12px rgba(0, 94, 234, 0.3);
 }
 
-.btn.whatsapp {
-  background: #25D366;
+.btn:hover {
+  background: #0044b7;
 }
 
+.whatsapp {
+  background: #25D366 !important;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp:hover {
+  background: #1ebd58 !important;
+}
+
+/* Footer */
 footer {
+  background: #003580;
+  color: #fff;
   text-align: center;
   padding: 15px;
-  background: #003f88;
-  color: white;
+  margin-top: 20px;
 }
