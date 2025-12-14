@@ -111,3 +111,71 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+
+/* Navbar */
+nav {
+    background: #003b73;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+/* Service Section */
+#services {
+    max-width: 900px;
+    background: #fff;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 14px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+#services h2 {
+    color: #003b73;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+#services ul {
+    line-height: 2;
+    font-size: 18px;
+    color: #333;
+}
+.btn-apply {
+    display: inline-block;
+    background: #005bea;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.btn-apply:hover {
+    background: #003e9b;
+}
+.btn-whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn-whatsapp:hover {
+    background: #128C7E;
+}
+
