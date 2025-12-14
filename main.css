@@ -1,6 +1,4 @@
-/* version: 5 */
-
-/* Global Reset */
+/* version: 10 */
 * {
     margin: 0;
     padding: 0;
@@ -9,76 +7,75 @@
 }
 
 body {
-    background: #eef3fb;
+    background: #e9f1ff;
 }
 
-/* HERO BLUE GRADIENT */
+/* HERO SECTION */
 .hero {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(135deg, #4aa8ff, #007aff);
+    padding: 65px 25px;
+    background: linear-gradient(135deg, #4ba7ff, #0077ff);
     color: white;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 35px rgba(0,0,0,0.25);
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 700;
 }
 
 .hero p {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 20px;
     opacity: 0.95;
 }
 
-.tag {
+.expo-tag {
+    display: inline-block;
     margin-top: 15px;
-    background: #ffda3a;
-    color: #000;
+    background: #ffd33b;
     padding: 10px 25px;
-    border-radius: 25px;
-    border: none;
-    font-size: 16px;
+    border-radius: 30px;
+    color: black;
     font-weight: 600;
 }
 
 /* NAVBAR */
 nav {
-    background: #003d8f;
+    background: #003c8f;
     text-align: center;
-    padding: 12px 0;
+    padding: 14px;
 }
 
 nav a {
     color: white;
-    margin: 0 18px;
-    font-weight: 600;
     font-size: 18px;
+    margin: 0 18px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 nav a:hover {
-    color: #ffda3a;
+    color: #ffd33b;
 }
 
-/* CARD SECTIONS */
+/* CARD STYLE */
 .card {
     background: white;
-    width: 88%;
+    width: 90%;
     margin: 25px auto;
     padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+    border-radius: 22px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
 }
 
 .card h2 {
-    color: #0056c9;
+    color: #0050c8;
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .card ul {
@@ -90,12 +87,12 @@ nav a:hover {
 .btn-primary {
     display: inline-block;
     background: #007aff;
-    padding: 14px 30px;
-    border-radius: 12px;
     color: white;
+    padding: 14px 30px;
     font-size: 18px;
-    font-weight: 600;
+    border-radius: 12px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -105,12 +102,12 @@ nav a:hover {
 .btn-whatsapp {
     display: inline-block;
     background: #25D366;
+    color: white;
     padding: 14px 30px;
     border-radius: 12px;
-    color: white;
+    text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
 }
 
 .btn-whatsapp:hover {
