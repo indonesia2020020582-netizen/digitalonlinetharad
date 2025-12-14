@@ -1,181 +1,118 @@
-/* version: 2 */
+/* version: 5 */
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Gujarati', sans-serif;
+}
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #eef2f7;
-  color: #1f2d3d;
+    background: #eef3fb;
 }
 
-/* Header */
-header {
-  background: linear-gradient(135deg, #005bea, #00c6fb);
-  padding: 35px 20px;
-  text-align: center;
-  color: #fff;
-}
-
-header h1 {
-  font-size: 32px;
-  margin: 0;
-  font-weight: 700;
-}
-
-header p {
-  font-size: 18px;
-  margin: 5px 0;
-}
-
-.expo {
-  margin-top: 8px;
-  display: inline-block;
-  background: #ffcc00;
-  color: #000;
-  padding: 5px 12px;
-  border-radius: 5px;
-  font-weight: 600;
-}
-
-/* Navigation */
-nav {
-  background: #003580;
-  padding: 12px;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  margin: 0 12px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Sections */
-section {
-  background: #fff;
-  margin: 15px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-}
-
-section h2 {
-  color: #005bea;
-  margin-bottom: 10px;
-}
-
-/* Service List */
-ul li {
-  padding: 6px 0;
-  font-size: 16px;
-}
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 14px 22px;
-  background: #005bea;
-  color: #fff !important;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 17px;
-  border-radius: 6px;
-  margin-top: 10px;
-  box-shadow: 0 4px 12px rgba(0, 94, 234, 0.3);
-}
-
-.btn:hover {
-  background: #0044b7;
-}
-
-.whatsapp {
-  background: #25D366 !important;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-}
-
-.whatsapp:hover {
-  background: #1ebd58 !important;
-}
-
-/* Footer */
-footer {
-  background: #003580;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
-
-/* Navbar */
-nav {
-    background: #003b73;
-    padding: 12px 0;
+/* HERO BLUE GRADIENT */
+.hero {
     text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4aa8ff, #007aff);
+    color: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 18px;
-    font-size: 18px;
+.hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.95;
+}
+
+.tag {
+    margin-top: 15px;
+    background: #ffda3a;
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
     font-weight: 600;
 }
 
-nav a:hover {
-    color: #ffdd57;
-}
-/* Service Section */
-#services {
-    max-width: 900px;
-    background: #fff;
-    padding: 25px;
-    margin: 30px auto;
-    border-radius: 14px;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+/* NAVBAR */
+nav {
+    background: #003d8f;
+    text-align: center;
+    padding: 12px 0;
 }
 
-#services h2 {
-    color: #003b73;
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-#services ul {
-    line-height: 2;
+nav a {
+    color: white;
+    margin: 0 18px;
+    font-weight: 600;
     font-size: 18px;
-    color: #333;
-}
-.btn-apply {
-    display: inline-block;
-    background: #005bea;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 8px;
     text-decoration: none;
-    font-size: 18px;
-    margin: 18px 0;
 }
 
-.btn-apply:hover {
-    background: #003e9b;
+nav a:hover {
+    color: #ffda3a;
 }
+
+/* CARD SECTIONS */
+.card {
+    background: white;
+    width: 88%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    color: #0056c9;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.card ul {
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* BUTTONS */
+.btn-primary {
+    display: inline-block;
+    background: #007aff;
+    padding: 14px 30px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: #005fcc;
+}
+
 .btn-whatsapp {
     display: inline-block;
     background: #25D366;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 12px;
+    color: white;
     font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .btn-whatsapp:hover {
     background: #128C7E;
 }
-
